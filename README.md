@@ -3,6 +3,7 @@ This is "malicious" .desktop file based on the TTPs of APT36.
 When opened, this file will do two things:
 Create a decoy text file in /tmp and open it.
 Once the decoy file is open, a reverse shell pointed to 127.0.0.1:4444
+*If the listener (nc -vlp 4444) is not running when the .desktop is executed, the command will not work*
 
 Once the reverse shell is closed, the decoy is removed to.
 All important info is obfuscated using base64.
